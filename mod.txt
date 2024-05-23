@@ -1,24 +1,20 @@
 {
-	"name":"Ping check",
+	"name":"Ping checker",
 	"author":"Sa1miakki",
-	"description":"Check your ping to server, if your ping not change in 6sec, this will show a warning msg bcuz you will mostly disconnect. 
-In otherword, if you disconnected to server but not receive warning msg, you maybe got kicked by 'disconnect a player'.",
+	"description":" ",
 	"version":"1.0",
 	"blt_version":2
+        "updates" : [
+		{
+			"identifier" : "pd2_ping_checker",
+			"host" : {
+				"meta" : "https://raw.githubusercontent.com/Sa1miakki/pd2-ping-checker/main/meta.json"
+			}
+		}
+	],
         "persist_scripts" :
 	[
-		{"global" : "PingCheck", "script_path" : "lua/mod.lua"}],
-        "keybinds": 
-	[
-		{
-			"keybind_id": "ping_check",
-			"name": "PC",
-			"description": " .",
-			"script_path": "lua/mod.lua",
-			"run_in_menu": true,
-			"run_in_game": true,
-			"localized": false
-		}
-	]
-
+		{"global" : "PingCheck", "script_path" : "lua/mod.lua"}
+        ]
+        
 }
