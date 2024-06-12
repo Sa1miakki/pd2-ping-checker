@@ -12,9 +12,11 @@
 			}
 		}
 	],
-        "persist_scripts" :
-	[
-		{"global" : "PingCheck", "script_path" : "lua/mod.lua"}
-        ]
+        "hooks": [
+                {
+			"hook_id": "lib/network/base/networkpeer",
+			"script_path": "lua/mod.lua"
+		}
+	]
         
 }
