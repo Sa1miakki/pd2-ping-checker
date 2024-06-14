@@ -9,8 +9,10 @@ function Ping_check_loop(interval, host)
 		if host then 
 	        ms2 = host:qos().ping
 	    end
-		
-		dms = ms2 - ms1
+
+		if ms1 and ms2 then
+		    dms = ms2 - ms1
+		end
 		
 		if dms == 0 then
 		    standard = standard + 1
