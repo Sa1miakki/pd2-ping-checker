@@ -1,7 +1,7 @@
 [
     {
         "ident" : "pd2_ping_checker",
-        "version": "1.1",
+        "version": "1.2",
         "patchnotes_url" : "https://github.com/Sa1miakki/pd2-ping-checker",
         "download_url" : "https://github.com/Sa1miakki/pd2-ping-checker/archive/refs/heads/main.zip"
     }
